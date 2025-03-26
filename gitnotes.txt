@@ -1,0 +1,11 @@
+GIT------------
+VERSION CONTROL SYSYTEM
+
+1ST TIME :
+TO UPLOAD IN GITHUB
+git init ---for intialization
+git add . ---for files/folder/imges/auduio
+git commit -m "type message"
+git remote add origin repository link(paste)
+git push origin master    /main ---git push origin main --force 
+
