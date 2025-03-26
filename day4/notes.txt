@@ -1,0 +1,31 @@
+div
+---block level elemnt
+--both are paired tags
+--container
+
+span
+--inline elemnt
+
+block level element----> entire width of the content 
+--->eg div,p,h1,
+---->it respects height,width properties,margin,padding properties--->covert display:inline
+vs inline element ----> contains only what required for content 
+eg----> small;span;b,
+----> it wont respect height width margin padding
+-->convert display:block
+display:inline block(it is inline elemnt but respects width margin height padding like block level eelmnt)
+
+
+----------------------------------------------------------
+
+box-sizing:
+is a property apply for all eleemnts
+--- define height width of an element;
+eg:width:100px;
+height:100px;
+border:2px;
+padding:10px;
+
+default vale
+box-sizing:content-box;
+// box-sizing:

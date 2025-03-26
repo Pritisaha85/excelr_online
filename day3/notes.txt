@@ -1,0 +1,57 @@
+Based on display elemnts
+1. block level elemnts-- element will occupy entire width of page
+---eg h1 h2 h3,p
+2. inline elemnets- the elemnt will occupy its respective space in the page
+eg i tag.small,
+to covert block to inline inline to block
+--- use display property
+--display:block/inline;
+
+
+*MARGIN
+--SPACE around the border
+synatx:
+h1{
+    margin:20px; //all sides top bottom left right
+    margin: 20px (top/bottom) 30px (right/left)
+
+    margin:20px(top) 10px(right) 30px(bottom) 40px(left); 
+}
+---------------------------
+padding:SPACE AROUND TEH CONTENT
+--PADDIng atrribute
+** Syntax:
+h1{
+
+    padding:20px all sides;
+    padding:20px (top/bottom) 30px (right/left)
+    padding:20px(top) 10px(right) 30px(bottom) 40px(left);
+}
+shorthand:
+padding:top right bottom left
+------------------------------------
+border: a line around text
+--border attribute
+syntax:
+h1{
+    border-style:
+    border-color:
+border-size:
+border: size style color;
+border-top;
+border-bottom;
+border-left;
+border-right;
+}
+---------------------------------
+typesof border:
+-dash 
+-groove
+--ridge
+--inset 
+--outset
+------------
+box model in css
+==it describes how elemnts are structured and spaced in a web page
+---------structure:
+content(text/image/audio)------>padding(space around the content----->border(a line around text)----->margin(space outside the order.it helps to separate elements )
