@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoElement</title>
+    <style>
+        #p1{
+            background-color:antiquewhite;
+        }
+        #p1::first-letter{
+            color:brown;
+            font-size:40px;
+        }
+        #p1::first-line{
+            color:rgb(85,0,255);
+        }
+        #p2::after{
+            content:"😊"
+        }
+        #p2::before{
+            content:"😘";
+        }
+        #p1::selection{
+            background-color: rgb(142, 127, 255);
+        }
+        
+        /*for list bulletes is marker used mainly*/ 
+
+        ::marker{
+            color:blueviolet;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo elemnt</h1>
+    <hr>
+    <li>it is used to add style to the elemnt based on ites sate </li>
+    <li>it indicates with :: double  colon</li>
+    <hr>
+    <p id="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione laboriosam ipsa iure excepturi ipsum ipsam culpa unde esse tempora quod sint eveniet vitae incidunt quas tempore nobis modi, facere nam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio harum eveniet ea dicta? Modi nisi perferendis exercitationem blanditiis totam. Facilis similique sint blanditiis voluptas earum dicta maiores ratione in, enim, repudiandae quia magni. Cum hic ducimus delectus repellendus voluptatem impedit minima veniam natus similique aperiam voluptate, libero magnam pariatur.
+        .</p>
+        <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolorem.
+        </p>
+</body>
+</html>
