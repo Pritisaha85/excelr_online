@@ -1,0 +1,27 @@
+Table & its tags and its atrributes
+<table></table> -- used to create table
+<thead></thead> --- used to create head of table
+<tbody></tbody> -- used to create body of table
+<caption> -- used to name table
+<tfoot> ---- used for footer in table
+<th> --- used to write head content (bold )
+ <tr> -- for no of rows
+ <td> ---- for cells no. of cells
+ //properties 
+ cellspacing,cellpadding.height , width
+
+ rowspan and colspan  --- these are used to merge in th or td 
+
+
+
+pseudo elemnts and pseudo class
+
+
+pseudo elemnt --- used for selectiong specific part of elemnt 
+ex:
+---::first-line.::first-letter,::selection;::before; ::after
+
+pseudo class- --- used to selct based on its state
+eg 
+:link;:active;:hover;:visited
+---------------------------------
