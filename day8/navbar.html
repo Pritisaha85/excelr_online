@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <style>
+      .main{
+        border:1px solid black;
+        min-height: 100vh;
+        
+      }
+      .navbar{
+        background-color: black;
+        display: flex;
+        height:80px;
+        justify-content: flex-end;
+      }
+      .child{
+        color:white;
+        text-align: center;
+        font-size: 40px;
+        margin:10px
+
+      }
+      .child:hover{
+        font-size: 45px;
+      }
+      .profile{
+        margin-right: auto;
+      }
+      img{
+        height:50px;
+        width:100px;
+        border-radius: 27px;
+      }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="Profile child">
+                <img src="../day6/medias/download.jpeg" alt="">
+            </div>
+
+            <div class="home child">Home</div>
+            <div class="about child">About</div>
+            <div class="services child">Services</div>
+            <div class="contact child">Contact</div>
+        </div>
+    </div>
+</body>
+</html>

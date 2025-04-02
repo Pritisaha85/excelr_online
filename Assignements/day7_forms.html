@@ -3,109 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
+    <title>Registration Form</title>
     <style>
-
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: sans-serif;
+    background-color: black;
+    margin:0;
+}
+.container{
+    background-color: #e0e0e0;
+    padding:20px;
+    border-radius:10px;
+    width:400px;
+    text-align: center;
+}
+table{
+    width:100%;
+}
+td{
+    padding:10px;
+    color:black;
+}
+input,textarea{
+ width:100%;   
+ padding:8px;
+ border-radius: 5px;
+ border:1px solid #ccc;
+ font-size:14px;
+}
+.gender-options{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+.gender-options input{
+    margin-right:5px;
+    cursor:pointer;
+}
+.buttons{
+    margin-top:15px;
+}
+button{
+    padding:10px 20px;
+    margin:5px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size:14px;
+}
+.submit-btn{
+    background-color: red;
+    color:white;
+}
+button:hover{
+    opacity:0.8;
+}
     </style>
+
 </head>
 <body>
     <div class="container">
-    <h1><u>Registration Form</u></h1>
+        <h1><u>Registration Form</u></h1>
 
-    <form >
-        
-<table>
-    <tbody>
-        <tr>
-            <td>
-                <label for="fname">First Name:</label>
-            </td>
-            <td>
-                <input type="text" id="fname" name="fname">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="Lname">Last Name:</label>
-            </td>
-            <td>
-                <input type="text" id="lname" name="lname">
-            </td>  
-        </tr>
-        <tr>
-            <td>
-                <label for="nname">Nick Name:</label>
-            </td>
-            <td>
-                <input type="text" id="nname" name="nname">
-            </td>    
-        </tr>
-        <tr>
-            <td>
-                <label for="email">Email:</label>
-            </td>
-            <td>
-                <input type="email" id="Email" name="email">
-            </td>    
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="fname">First Name:</label></td>
+                        <td><input type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name:</label></td>
+                        <td><input type="text" id="lname" name="lname"></td>  
+                    </tr>
+                    <tr>
+                        <td><label for="nname">Nick Name:</label></td>
+                        <td><input type="text" id="nname" name="nname"></td>    
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email"></td>    
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password:</label></td>
+                        <td><input type="password" id="pass" name="pass"></td>    
+                    </tr>
+                    <tr>
+                        <td><label for="dob">DOB:</label></td>
+                        <td><input type="date" id="dob" name="dob"></td>     
+                    </tr>
+                    <tr>
+                        <td><label for="gender">GENDER:</label></td>
+                        <td class="gender-options">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Male</label>
+                
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Female</label>
 
-        </tr>
-        <tr>
-            <td>
-                <label for="pass">Password:</label>
-            </td>
-            <td>
-                <input type="password" id="pass" name="pass">
-            </td>    
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Others</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Mobile No.:</label></td>
+                        <td><input type="tel" name="phone" id="phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><textarea name="address" id="address"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
 
-        </tr>
-        <tr>
-            <td>
-                <label for="dob">DOB:</label>
-            </td>
-            <td>
-                <input type="date" id="dob" name="dob">
-            </td>     
-        </tr>
-        <tr>
-            <td>
-                <label for="gender">GENDER:</label>
-            </td>
-            <td>
-                <input type="radio" id="male" name="gender">
-                <label for="male">Male</label>
-           
-                <input type="radio" id="female" name="gender">
-                <label for="female">Female</label>
-                <input type="radio" name="gender" id="others">
-                <label for="others">Others</label>
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-            <label for="phone">Mobile no.</label>
-            </td>
-            <td>
-            <input type="tel" name="phone" id="phone">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="adress">Adrress</label>
-            </td>
-            <td>
-                <textarea name="address" id="address"></textarea>
-            </td>
-        </tr>
-    </tbody>
-</table>
-    
-    <div class="buttons">
-        <button type="submit" class="submit-btn">Submit</button>
-        <button type="resest" class="reset-btn">Reset</button>
+            <div class="buttons">
+                <button type="submit" class="submit-btn">Submit</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
     </div>
-</form>
-</div>
 </body>
 </html>

@@ -1,0 +1,35 @@
+ <hr>
+    <p>it is used to align eleemnts</p>
+
+    <p>used to distribute space around</p>
+
+    <p>will arrange elemnts in  cross axis and main axis</p>
+
+    <p>flex container is main box/division of flex</p>
+
+    <p>flex itemss are child of flex contianer</p>
+
+    <p>Flex container is used to wrap up flex items</p>
+
+    <p>:display:flex is used to make flex conatiner</p>
+
+    <p>default directiom is row(left to right)
+
+        <p>flex-direction:row reverse;row;column; column-reverse< to change the direction/p>
+
+        -----------------------
+        row(left to right) --x axis (main axis) y axis(cross axis)
+        column(top to bottom) y axis(main axis) x axis(cross axis)
+
+        -------------------
+        justify-content: it is used to align main axis
+align items : it is used align cross axis
+align-content:used when there is extra space in cross axis similar to justify content
+gap: provide gap between elemntsrow-gap,column gap;
+
+child properties/flex items:
+
+flex-shrink:used to shrink according to width
+default-1
+0 wont shrinkflex-grow:used to grow elemnt according to width
+order: it is used to re arrange order of flex itemsjustify-slef:t provide justify conttnet property
