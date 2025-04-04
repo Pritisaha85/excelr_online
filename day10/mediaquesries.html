@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query 1</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            border:1px solid red;
+            height:100vh;
+        }
+        .nav{
+            background-color: blueviolet;
+            height:10%;
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+            
+        }
+        .navitem{
+            font-size: 2em;
+            color: white;
+            margin:20px;
+        }
+        .center{
+            background-color: black;
+            height:400px;
+            color:white;
+            text-align: center;
+        }
+        @media screen and (orientation : landscape){
+.center{
+    background-color: rgb(169, 41, 62);
+            
+}
+        }
+        @media screen and (orientation : portrait){
+.center{
+    background-color: rgb(60, 169, 41);
+            
+}}
+        /* laptop-1100
+        tab-700-1100
+        mobile-300-700 */
+        @media screen and (max-width:1100px) and (min-width:700px){
+.nav{
+background-color: rgb(107,107,245,0.8);
+justify-content: space-between;
+}
+}
+@media screen and (max-width:700px) and (min-width:300px){
+.nav{
+background-color: rgb(107,107,245,0.8);
+justify-content: flex-start;
+}
+        }
+    </style>
+</head>
+<body>
+<h1>Media query</h1>    
+<hr>
+<p>it is uesd to create responsive pages</p>
+<hr>
+<div class="nav">
+   
+        <div class="navitem">Home</div>
+        <div class="navitem">About</div>
+        <div class="navitem">contact</div>
+  
+</div>
+if it is a laptop it will be red and alignment is on left side
+if tab it will be green and on center if mobile then blue and on ryt side
+<div>
+    <h1 class="center">this is center</h1>
+</div>
+<div>
+    <h2>footer</h2>
+</div>
+</body>
+</html>

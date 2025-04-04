@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units</title>
+    <style>
+        .p1{
+            background-color: red;
+            width:100px;
+        }
+        .parent{
+            border:1px solid black;
+            width:600px;
+        }
+        .p2{
+            background-color: rgb(0, 255, 55);
+            width:30%;
+        }
+        .c1{
+            background-color: red;
+            width:100px;
+        }
+        .c2{
+            background-color: rgb(0, 255, 110);
+            width:30%;
+        }
+        .p3{
+            font-size:2em;
+        }
+        .p4{
+            font-size:2rem;
+
+        }
+        .c3{
+            font-size:2em;
+
+        }
+        .c4{
+            font-size:2rem;
+
+        }
+        .parent2{
+            border:1px solid black;
+            font-size:30px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h1>css units</h1>
+    <hr>
+    <p>used to define size of an elemnt</p>
+    <p>they are two types of units</p>
+    <ul>
+        <li>relative unit</li>
+        <li>absolute unit</li>
+        <h2>Absolute unit</h2>
+        <ul>
+            <!-- these are fixed units  -->
+            <li>px-pixel</li>
+            <li>cm-centimeter</li>
+            <li>mm-milimeter</li>
+            <li>in-inch</li>
+            <li>pt-point</li>
+            <li>pc-pica</li>
+        </ul>
+        <hr>
+        <h2>relative unit</h2>
+        <ul>
+            <li>
+                
+                %-percentage
+            </li>
+            <li>em-em</li>
+            <li>rem-root em</li>
+            <li>vw-viewport width</li>
+            <li>viewport height-vh</li>
+        </ul>
+    </ul>
+    <hr>
+    <p class="p1">100px</p>
+    <p class="p2">30%</p>
+    <div class="parent">
+        <p class="c1">100px</p>
+        <div class="c2">30%</div>
+       
+    </div>
+    <div class="p3">2em-body child</div>
+        <div class="p4">2rem-body child</div>
+        <div class="parent2">
+            <div class="c3">2em-body child-</div>
+            <div class="c4">2rem body child</div>
+        </div>
+</body>
+</html>
