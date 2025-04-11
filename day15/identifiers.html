@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //     let name="priti";
+    //    document.write("you are NOT placed"+name);
+       document.write("<br>");
+       var tempFahrenheit=99;
+       let tempFahrenheit=99;
+       const TEMP_CELSIUS=38;
+       const NORMAL_FAHREN=98.6;
+       let  celsiusScale=(tempFahrenheit-32)*5/9;
+       document.write("default temp(var)is" +tempFahrenheit);
+       document.write("<br/>");
+       document.write("default temp(let)is"+tempFahrenheit);
+       document.write("<br/>");
+       document.write("normal body temp in celsisus"+TEMP_CELSIUS);
+       document.write("<br/>");
+       document.write("normal body temp in fahrenheit is"+NORMAL_FAHREN);
+       document.write("<br/>");
+       document.write("calculated temp in celsisu from tempfahrenheit is"+celsiusScale);
+        
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Identifier Demo</title>
+    <style>
+        body {
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body class="container-fluid">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3>Body Temperature</h3>
+        </div>
+
+        <div class="panel-body">
+            <script>
+                var tempFahrenheit = 99;
+                let TempFahrenheit = 99;
+                // let TempFahrenheit=99; Redeclaration is not allowed 
+
+                const TEMP_CELSIUS = 38;
+
+                // document.write() is used to write content onto the HTML page
+                document.write("Default temperature (var) is: " + tempFahrenheit + "</span>");
+                document.write("<br/>");
+                document.write("Default temperature (let) is: " + TempFahrenheit + "</span>");
+                document.write("<br/>");
+                document.write("Normal body temperature in Celsius is: " + TEMP_CELSIUS + "</span>");
+                document.write("<br>");
+
+                let r=4;
+                const pi=3.14;
+                let area=pi*r*r;
+                document.write("area of circle is"+area);
+                document.write("<br>");
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

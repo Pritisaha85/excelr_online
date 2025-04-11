@@ -1,0 +1,35 @@
+css position
+relative
+sticky'
+fixed
+absolute
+
+1.static:
+position:static;
+default value
+-top,right,left,bottom are not set
+
+2. relativeposition:relative;
+-relative to its normal positions
+-top.right,left,bottom are set
+-- other elemnts are not affected by this elemnts
+--can be used to move an elemnt from its normal position
+--------------------------
+z-index
+--used to specify stacking order of elemnts when overlapping each other
+--higher value means higher z-index
+3. fixed
+position:fixed;
+-top.right,left,bottom are set
+--other elemnts are nto affected
+
+--------------
+3. sticky
+--other leemnts are not affeted by this elemnt---can be used to move an elemnt from its normal position--the elemnt remains in same position even if page is scrolled.
+--is a combo of relative and fixed
+
+
+5. absolute
+--- absolute to its normal positionstop,right,left,bottom are set-other elemnts are not affected by thiss elemnt--can be used to move an elemnt from its normal positions--it depends on inherited elemnt
+
+

@@ -1,0 +1,41 @@
+javascript
+inline 
+
+internal
+<script><script>
+external
+<script src="script.js">click me </script>
+------------
+operators in js
+1. arithmetic operators :+ - / * ** ++ --
+2. relational:=== < > <= >=
+3. logical
+4. assignment
+5. ternary 
+6. bitwise 
+
+
+IDENTIFIER
+let _identifierName_ 
+-- it has a block scope
+---- it is available only within block in which it is defined
+-- it can be altered 
+-- value assigned can be done at declaration or later in code
+
+constatnt - const keyword
+-- to hold data that doesnt vary is called constatnt
+--block scope
+--exist within which they are defineed
+
+var -- variable
+--function scope
+--can give same identifier to two different variables
+var name="p";
+var name="w";
+
+
+
+Keyword--	Scope	Declaration	 assignment
+let---block---redeclaration not allowed--re assignning allowed
+const--block---redeclaration not allowed---re assignning not allowed
+var--function-redeclaration  allowed---reassignin allowed

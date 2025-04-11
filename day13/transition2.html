@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition 2</title>
+    <style>
+        .box{
+            height:100px;
+            width:100px;
+            background-color: red;
+            transition-duration: 3s;
+            transition-property: all;
+            margin:10px 0;
+        }
+        .ease{
+            transition-timing-function: ease;
+        }
+        .easein{
+background-color: red;
+transition-timing-function:ease-in;
+        }
+        .box:hover{
+            height:300px;        }
+            .steps{
+                transition-timing-function: steps(6);
+
+            }
+            .ease-out{
+                transition-timing-function: ease-in-out;
+            }
+            .linear{
+                transition-timing-function: linear;
+            }
+    </style>
+</head>
+<body>
+<div class="box">default</div>
+<div class="box ease">ease</div>
+<div class="box easein">sein</div>
+<div class="box steps">steps</div>
+<div class="box easseout">ease out</div>
+<div class="box linear">linear</div>
+</body>
+</html>
+
+
+

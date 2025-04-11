@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+    display:flex;
+    background: #00000099;
+}
+        
+     .container{
+            border: 1px solid black;
+            display:flex;
+           gap:8px;
+           
+           
+        }
+        .fullbox{
+            border: 1px solid red;
+display:flex;
+color:#212121;
+margin:0 auto;
+border-radius: 2px;
+width:675px;
+        }
+        .halfbox{
+            width:40%;
+            /* background:url() ; */
+            background-color: #2874f0;
+            padding:40px 30px;
+            color:#fff;
+            background-position: center 85%;
+            
+        }
+        .header-text{
+            font-size: 28px;
+            font-weight: 500;
+        }
+        .sub-text{
+            margin-top: 16px;
+            line-height: 1.5;
+            color:#dbdbdb;
+            font-size: 18px;
+        }
+      
+        .second-half{
+            width:60%;
+            padding:56px 35px 16px;
+            background-color: white;
+            position: relative;
+
+        }
+        .form{
+width:60%;
+padding:56px 35px 16px;
+position: relative;
+background-color: white;
+        }
+        .input-field{
+position:relative;
+margin-bottom:34px;
+        }
+        input{
+            padding:8px 10px 10px 0;
+            width:100%;
+            color:#000;
+            border:none;
+            outline:none;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .floating-label{
+            color:#878787;
+            position:absolute;
+            left:0;
+           top:0;
+           pointer-events: none;
+           font-weight: 400;
+           transform:translateY(10px);
+transition:0.2s ease all;
+        }
+        .btn{
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="fullbox">
+            <div class="halfbox">
+                <span class="header-text">Login</span>
+                <p class="sub-text">Get access to your Orders, Wishlist and Recommendations</p>
+            </div>
+
+            <div class="second-half">
+<div class="form">
+    <form action="
+    ">
+    <div class="input-field">
+<input type="text" name="number" placeholder="">
+
+    <label for="" class="floating-label">Enter Email/Mobile Number</label>
+</div>
+
+
+<div class="terms-conditions">
+    By continuing, you agree to Flipkart's <a href="#" target="_blank">Terms of use</a>
+    and
+    <a href="#" target="_blank">Privacy Policy</a>
+</div>
+<div class="btn">
+    <button type="submit" class="btn_otp">Request OTP</button>
+</div>
+</form>
+<div class="endtext">
+    <a href="#">New to Flipkart? Create an account</a>
+</div>
+
+</div>
+            </div>
+            <div class="btn-close">
+                <span class="close-icon">&#x2715;</span>
+            </div>
+    
+    </div>
+</body>
+</html>
+<!-- https://github.com/web-component23/awesome-designs/blob/main/Flipkart%20Login/index.html -->

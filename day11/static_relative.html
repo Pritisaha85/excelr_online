@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .p1{
+            position: static;
+            background-color: red;
+            width:300px;
+            height:200px;
+            /*left:20px;
+            top:50px; */
+            /* for satich we see no chnge in top and left */
+        }
+        .p2{
+            position: relative;
+            background-color: blue;
+            width:300px;
+            height:200px;
+            left:100px;
+            top:150px;
+            z-index: 2;
+            /* relative shows moevemnt in top left */
+            
+        }
+        .p3{
+            background-color: rgb(237, 11, 154);
+            position: relative;
+            width:300px;
+            height:200px;
+            left:150px;
+            top:100px;
+            z-index: 1;
+        }
+        .p4{
+            position: relative;
+            background-color: rgb(0, 255, 102);
+            width:300px;
+            height:200px;
+            left:200px;
+            top:20px;
+            z-index: 2;
+        }
+    </style>
+
+</head>
+<body>
+    <p class="p1">this is static</p>
+    <p class="p2">this isrelative </p>
+    <p class="p3">this isrelative</p>
+    <p class="p4">this is relative</p>
+</body>
+</html>
