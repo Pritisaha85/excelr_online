@@ -1,0 +1,74 @@
+tokens :
+---four types
+1 identifiers-providing names
+======== // variable names : rules:
+............ cannot contain space,not reversed
+''''''''' shoube short and meaningful
+......cant start with number
+eg a=10✅
+1a=10❌
+_a=10✅
+$a=10✅
+-------------------------
+// functiion name
+//class names
+
+=============
+2. keywords
+=============
+3. literal/values/data:
+a. number
+10,-10,10.0
+.....................
+b string
+--groupp of chracters
+--using double ,single quotes, or back tick(``)/template literals; **used for interpolation**
+................
+c boolean
+d null
+e undefined
+6 symbol
+====================================
+4. datatype:
+1. primitive datatype
+a. number--int,float,--10 -10 10.0
+b. string 
+b. boolean
+d. null 
+e. undefined --declare variable without value
+f. symbol ("id")
+g. bigint 23444444444444444444 large nos
+''''''''''''''''''''''''''''''''''''''''''
+2. non primitive datatypes
+---mutable/stores data in reference 
+A array
+B object
+c MAP
+d. set 
+d. data
+6. Regexp (regular expression)
+
+
+====================================
+5. operators
+6. variables
+1. var a, //undefined
+2. let b, //undefined3. 
+3. const c, //error intialize at time of declaration
+
+variable reintialization
+var a=20;       let b=30;
+    a=30;           b=40;
+
+variable redc;aration
+var a=10
+var a=30
+
+
+
+
+
+
+
+variables:
+data types:
