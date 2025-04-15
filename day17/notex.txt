@@ -1,0 +1,76 @@
+functions:
+--it is a block of code that performs a specific task
+--it is a re usable block of code
+--it is a collection of statements that performa a task
+why functions:
+---code reuse
+--code maintain
+--code organize
+---scalabitliy
+-----------------------------------
+types of functions:
+
+function declaration
+function expression
+arrow function
+constructor function
+generator function
+IIFE
+high order function
+1. function declaration
+/named function/genral function
+----------------------------------
+syntax:
+function functionName/identifier(){
+    //set of sentences
+}
+//passing argument
+function funfc_name(arg1,arg2,....){
+
+}
+
+funct_name(arg1.arg2.arg3,....)
+//return statements
+function funfc_name(arg1,arg2,....);{
+return result;
+}
+let result=funct_name(arg1.arg2.....);
+====================================
+
+2. function expression
+---------------------
+syntax:
+let result=function(arg1,arg2........){
+    return result;
+}
+result(arg1,arg2...);
+------------------
+3. arrow function
+--short syntax than regular functon
+syntax:
+let data=()=>{
+
+}
+ex: (ar1,ar2)=>{
+    //specific task
+}
+=============================
+4. constructor function
+=used to create objects
+= a special function
+syntax:
+function person(name,age)
+{
+    this.name=name;
+    this.age=age;
+}
+new person('ram',20);
+
+5. call back function
+--it is a function that is passed as an argument to annother function 
+--it is a function that is called by another function
+syntax:
+function functionname(arg1,arg2.func2,func3){
+    //set of sentences that perform task
+}
+functionname(arg1,arg2............);

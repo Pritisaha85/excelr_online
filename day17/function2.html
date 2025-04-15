@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function eligibilty(){
+            if(age>=18){
+                return "eligible";
+            }
+            else{
+                return "not eligible";
+            }
+        }
+        let age=prompt("enter age");
+        // console.log(age);
+        console.log(typeof(age));
+        let userage=parseInt(age);
+        console.log(typeof(userage));
+        let result=eligibilty(userage);
+        console.log(result);
+        alert(result);
+        
+        
+        
+        
+    </script>
+</body>
+</html>

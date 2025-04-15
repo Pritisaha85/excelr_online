@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>function</h1>
+    <script>
+        first_function(); //can call function before creating 
+        function first_function(){ //no argument 
+            console.log("hello world");
+            
+        }
+        first_function(); //call the function to execute
+        //*******************
+        function second_function(name){
+            console.log("hello"+ name + "!"); //hav argument
+            
+        }
+         second_function('priti');
+        //88*****************
+function third_funct(name){
+    console.log(`hello ${name}`);
+    
+}
+third_funct("john doe");
+//****************************8
+function fourth_funct(name){
+return `hello${name}`;    
+}
+let data=fourth_funct("kim");
+console.log(data);
+console.log(fourth_funct("kim"));
+
+
+    </script>
+</body>
+</html>
