@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    function boilwater(callback){
+        // console.log(".");
+        setTimeout(()=>{
+            console.log("Boling water.");
+            callback();
+            
+        },1000);
+    }
+    function brewCoffee(callback){
+        // console.log("brew coffee");
+        setTimeout(()=>{
+            console.log("brewing coffee");
+            callback();
+        },1500);
+        
+    }
+    function addSugarAndMilk(callback){
+        // console.log("adding sugar and milk");
+        setTimeout(()=>{
+            console.log("adding sugar and milk");
+            callback();
+            
+        },2000);
+        
+    }
+    function pourInCup(callback){
+        // console.log("pouring into cup");
+        setTimeout(()=>{
+            console.log("pouring into cup");
+            callback();
+        },1500);
+        
+    }
+   
+    function serveCoffee(callback){
+        // console.log("serving coffee")
+        // ;
+        setTimeout(()=>{
+            console.log("serving coffee");
+            callback();
+        },1000);
+        
+    }
+    boilwater(()=>{
+        brewCoffee(()=>{
+            addSugarAndMilk(()=>{
+                pourInCup(()=>{
+                    serveCoffee();
+                })
+
+                
+            })
+                
+            
+        })
+            
+        
+    })
+        
+    
+    
+    console.log("COFFE IS READY");
+    
+   </script> 
+</body>
+</html>
+
+<!-- //created n no. function
+1. boilwater
+2. brewCoffee
+3. addSugarAndMilk
+4. pourInCup
+5. serveCoffee
+
+called them with a calling function
+boilwater();
+brewcofee();
+addsugarandmilk();
+pourincup();
+servecofee()
+--it printed in an order ---synchronous 
+then when we used setTimeout TO Print funtion after delay 
+---it  dnt printed in an order---- called asynchronous
+
+--then i used call back function to print an order
+--it printed in an order -->
+<!-- boilwater(()=>{
+    brewCoffee(()=>{
+        addSugarAndMilk(()=>{
+            pourInCup(()=>{
+                serveCoffee();
+            })
+
+            
+        })
+            
+        
+    })
+        
+    
+})
+     -->
+<!-- it printed in asynchoronous  -->

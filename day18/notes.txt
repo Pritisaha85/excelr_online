@@ -1,0 +1,114 @@
+what are callback functions
+function that is passed as an argument to another function
+
+callback hell(pyramid of doom)
+----------------------------------
+-is a situation where we have multiple callbacks inside a callback (nested callbacks)
+---hard to read
+---hard to maintain
+--hard to debug
+---this usually happens when we have to perform multiple asynchoromus operations
+
+hence promises come into picture
+--------------------------------------------------------------------------------
+what are promises
+====================
+a promis in js is an object that represents the outcome of an asynchronus operations
+----it is used to handle the success and failure of an asyncrhonus operations
+-----------------------------
+ states in promises:
+ 1. pending intial states
+ 2. fulfilled the operation was successful
+ 3. rejected-the operation failed
+ - we can use then() function to handle the success and failure of a promises
+ - we can use catch() function to handle the success and failure of a promises
+ -we can use finally() function to handle the success and failure of a promise
+-----------------------------------
+ async and await keywords
+
+
+
+what is then() functionsasync and await functions
+Promise.all()
+Promise.race()
+Promise.allSetled()
+Promise.all()
+Jquery Integration
+Eg on Jquery
+
+----------------
+-------------
+-----------------
+async and await
+
+async:
+ - are functions that return a promise
+ -are used to handle asyncohromous operations
+  syntax:
+
+  async function functionName(){
+
+  }
+  await:
+  ----------
+  used to wait for a promise to resolve
+  -used inside an async function
+  -it will make code synchronous
+
+  syntax:
+  async function functionName{
+    await functionName();}
+  --------------
+  authentication:
+  succes:welcome user
+  update userdelte user 
+  profile
+  failure:login fail
+  eg:
+  authentication(success{
+    welcom user()
+    update user()
+    delte profile()
+
+  }
+  ===============
+ Promise.all()
+ -it is used to wait for all the promises to resolbe
+ -it returns a promise
+ -it is used to handle multiple promieses(asyncrhonus operations)
+ -it is used to handle multiple promioses(asynscronus operations)
+ -if all sucess it returns array of valu
+ -if any one fails it gives errors
+
+----------------------------
+ Promise.race()
+ -IT IS USE TO WAIT FOR the first promise to resolve
+ -it returns a promise
+ -it is used to hadnle multiple(asynchronous operations)
+ -------------------
+ Promise.allSettled()
+ -used to wait for alll promises to resolve 
+ -it returns a promise
+  -it is used to hadnle multiple(asynchronous operations)
+  -wait for alll promises and tells 
+  1. whic one success
+  2. which one passed
+
+ ----------------------------
+ feaature| .all | .race |.allSettled
+ wait for all|yyeses|no|yyeses
+ fails fast |on first reject|if first rejects|never fails
+ use case| all must success|if first win|all outcomes get 
+ return| array| first value|all results with status|
+ ------------------------------
+ JQuery 
+ --jquery is fast,small js library
+ use: dom manipulation
+ event handling
+ animation
+ ajax(api-http requests)
+------it is easier than compared js
+ JQuery Integration
+--- use cdn
+ Examples on JQUERY
+

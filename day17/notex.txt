@@ -74,3 +74,36 @@ function functionname(arg1,arg2.func2,func3){
     //set of sentences that perform task
 }
 functionname(arg1,arg2............);
+
+=================
+6. generator function:
+--it is a function that is used to create iterators/generators
+syntax:
+function* functionname(){
+    yield 1;
+    .
+    .
+    .
+    yield n;
+}
+
+====================================
+7. IIFE:immediately invoked function expression
+-it is a function that is called immediately after it is defined
+
+syntax:
+(
+    function(){
+
+}
+)();
+=====================
+8. high order functions
+--it is a function that is passed as an argument to another function
+--- takes a function as an argument and returns a function
+--map().filter(),reduce() are high order functions
+synatx:
+function functionname(arg1,arg2,func_2){
+    //set of sentences that performs a task
+    return func_2(arg1,arg2);
+}

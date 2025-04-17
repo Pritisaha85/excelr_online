@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding:0;
+            border: 0;
+        }
+       .container{
+        height:400px;
+        border:2px solid red;
+        display:flex;  
+        /*in order to change into cross-axis we need flex-direction */
+
+        /* flex-direction: row; */
+         /* step1 */
+        flex-wrap: wrap; 
+        /* step 2 */
+       /* gap:10px;  */
+       /* STEP 3 */
+
+       /* row-gap: 50PX; */
+       /* STEP 4 */
+        /* column-gap: 50px; */
+        justify-content:space-around;
+        /* justify-content: flex-end; */
+        /* step 6 */
+        /* justify-content: center; */
+        /* main axix ------ justify content  step 5*/ 
+        align-items: center; 
+        /* default vlaue is stretch */
+
+/* align-content:center ; */
+       }
+       .box{
+        border:3px solid green;
+        margin:10px 0;
+        width:80px;
+       }
+       #box-1{
+        /* order:5; */
+        /* flex-grow: 1; */
+        /*  step 8 BY DEFAULT PROPERTY GROW has 0 */
+
+       }
+       #box-2{
+        /* order:2; */
+        /* flex-grow: 3; */
+       }
+
+
+    </style>
+</head>
+<body>
+   <div class="container"> <!--.container>.box#box-${box-$} emmet abbreviation-->
+    <div class="box" id="box-1">box-1</div>
+    <div class="box" id="box-2">box-2</div>
+    <div class="box" id="box-3">box-3</div>
+    <div class="box" id="box-4">box-4</div>
+    <div class="box" id="box-5">box-5</div>
+    <div class="box" id="box-6">box-6</div>
+    <div class="box" id="box-7">box-7</div>
+    <div class="box" id="box-8">box-8</div>
+   </div>
+</body>
+</html>

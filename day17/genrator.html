@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function* generatorfunction(){
+            yield "hello";
+            yield "world"
+            yield "from"
+            yield "a"
+            yield "generator"
+        }
+        let gen=generatorfunction();
+        console.log(gen.next());
+        console.log(gen.next());
+function* idgenerator(){ 
+    let id=1; //intial value of id
+    while(true){ //infinite loop
+        // yield id--; // inc id by 1 and return the value
+        yield `excelr00${id++}`
+    }
+}
+let idgen=idgenerator(); // create an instance of the generator function
+console.log(idgen.next().value);
+console.log(idgen.next().value);
+
+
+
+        
+    </script>
+</body>
+</html>

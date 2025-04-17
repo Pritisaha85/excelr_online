@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // cook biryani
+        // 1. chicken shop 
+        // 2. grocery shop
+        // 3. cut and clean dishes
+        // 4. cook Selection
+        // 5. cooking section
+        const task1=Promise.resolve("chicken shop")
+        const task2=Promise.resolve("grocery shop")
+        const task3=Promise.resolve("cut and clean")
+        // const task4=Promise.resolve("cooking section")
+        Promise.all([task1.task2,task3])
+        //resolve means success
+        .then((results)=>{
+            console.log("done with chicken,grocery and cutting section");
+            console.log(results);
+            console.log("person 4 is ready to cook food");
+            
+            
+            
+        })
+        .catch((error)=>{
+            console.log("error",error);
+            
+        })
+    </script>
+</body>
+</html>

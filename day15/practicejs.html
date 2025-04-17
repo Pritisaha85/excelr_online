@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Details</title>
+    <style>
+        div#maincontent {
+            height: 150px;
+            width: 500px;
+            border: 1px solid #CEE2FA;
+            text-align: left;
+            color: #08438E;
+            font-family: calibri;
+            font-size: 20px;
+            padding: 5px;
+        }
+        div#heading {
+            text-align: center;
+            margin-top: 80px;
+            width: 500px;
+            border: 1px solid #CEE2FA;
+            color: #08438E;
+            background-color: #CEE2FA;
+            font-family: calibri;
+            font-size: 20px;
+            padding: 5px;
+        }
+        h4 {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="heading">
+            <b>Theatre Drama</b>
+        </div>
+        <div id="maincontent">
+            <h4>Your Ticket Details:</h4>
+            <br>
+            <script>
+                // Initialize ticket details
+                const pricePerTicket = 9;
+                const numberOfTickets = 3;
+                const discountRate = 0.10;
+
+                // Calculate total price and discount
+                const totalPrice = pricePerTicket * numberOfTickets;
+                const discountAmount = totalPrice * discountRate;
+                const finalPrice = totalPrice - discountAmount;
+
+                // Display details using template literals
+                document.write(`
+                    Price per Ticket: $${pricePerTicket} <br>
+                    Number of Tickets: ${numberOfTickets} <br>
+                    Total Price: $${totalPrice.toFixed(2)} <br>
+                    Festive Discount (10%): -$${discountAmount.toFixed(2)} <br>
+                    Final Price to Pay: $${finalPrice.toFixed(2)}
+                `);
+            </script>
+        </div>
+    </center>
+</body>
+</html>
