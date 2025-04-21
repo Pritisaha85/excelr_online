@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function car(name){
+this.name=name
+        }
+        let c1=new car('mercedes')
+        console.log(c1);
+        console.log(c1.name);//name is accesing from c1 with help of dot operator
+        console.log(c1.color); //undefined bcz color is not defined in the constructor
+        c1.color='red'
+        console.log(c1);
+        //adding new properties
+        car.prototype.model='xhivie'
+        console.log(c1);
+        // car.prototype.color='red'
+        // console.log(c1);
+        
+        
+        
+        
+        
+        // let c1=new car()
+        //     console.log(c1);
+        //     let arr=[1,2,3,4,5]
+        //     console.log([arr]);
+            
+        
+    </script>
+</body>
+</html>
