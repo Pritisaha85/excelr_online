@@ -1,0 +1,46 @@
+splice():
+-used to addd or remove elements from an array
+-it changes original array
+syntax:
+aarray.splice(start,deletecount,elerment1,.......,elemnt_N)
+start:used to specify start index
+deletecount-used to specify no of elemnts to remove----------------------------------
+w---------------------
+some()--
+-used to check if any elemnts of an array satify a specific condition
+
+-it returns bool value
+syntax:
+--------------------------------
+        foreach()       map()        filter()
+used    loop through        same      SAME
+        arar
+
+purpose iterates        process     filter data    
+         the data       the data 
+
+ returns    nothing         returns     same
+                            new arr        
+ ============================================
+ 3. for of loop 
+ --for value of each elements it returns
+ -no modify
+ -loop over elemnt/value
+ use:arrays/strings
+ 4. for..in
+ -for key of each elemnt it returns==use:objects
+ --lop over index
+
+ ================================
+ 5. indexOf()
+ -ARR.indexOf(search,fromIndex)
+ --default 0
+ ===============================
+            indexof()       findIndex()     includes()
+ =====================================================
+ matchType  exactMatch      partialMatch    exactMatch
+ returns     index or -1    index or -1     boolean
+ work with      yes             no              yes
+  object
+  ========================================================
+  

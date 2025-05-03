@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Manipulation</title>
+    <style>
+
+      .highlight{
+        background-color: yellow;
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+    
+    <div id="div1">this is a div</div>
+    <div id="container">this is another container</div>
+    <button onclick="addHighlight()">click to add highlight</button>
+    <div id="container2" class="highlight">css removed</div>
+    <button onclick="removeHighlight()">remove highlight</button>
+    <div class="container3">
+        this is for toggle
+    </div>
+    <button onclick="toggleitem()">toggle</button>
+    <!-- //checking  -->
+    <div id="container4" class="highlight">chech higlight</div>
+    <button onclick="check()">chech highlight</button>
+    <script>
+         let container3=document.getElementById("container3")
+        function toggleitem(){
+            container3.classList.toggle("toggleitem")
+        }
+let container4=document.getElementById('container4')
+function check(){
+    if(container4.classList.contains("highlight")){
+        alert("highlight present")
+    }
+    else{
+        alert("highlight not present")
+    }
+}
+        //inline css
+        let div1=document.getElementById("div1");
+        div1.style.color='red';//adding
+        div1.style.fontSize='30px';
+        console.log(div1.style.color);//accessing
+
+      
+
+
+        //accessing container
+
+        let container=document.getElementById("container");
+        //adding class to container
+        function addHighlight(){
+            container.classList.add('highlight');
+        }
+        let container2=document.getElementById("container2")
+        function removeHighlight(){
+            container2.classList.remove('highlight')
+        }
+       let box=document.getElementById
+
+        
+    </script>
+</body>
+</html>

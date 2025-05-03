@@ -1,0 +1,39 @@
+css MANIPULATION
+
+1. style-- add ccss(inline css)
+2. getComputedStyle()--aceesing in css 
+3. classlist.add()--add class4. classListREMOVE()-- removing class
+4. classList.TOGGLE()--TOGGLING class
+6. classList.contains()-- checking it contains or not
+===================
+
+function:
+-block of code that performs a specific task 
+-it is a reusable block of code-it is a collection of statement that perform task
+
+event:
+
+-an action that occurs in the browser
+-event is a signal.notifictaion that something has happened '-used to handle user interactions
+
+usecase:
+
+---click evwnts
+--mouse events
+--key events
+-scroll event
+
+.
++--form events
+=========================
+
+event HANDLING-handling events by DOM methods
+-usually used to handle user interactions
+-it is a code(function) that is executed when an  event occurs 
+
+1. addEventListener() --adding event addEventListener
+
+2. removeEventListener()--removing event addEventListener
+
+3. dispatchevent()
+---dispatching event

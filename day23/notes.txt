@@ -1,0 +1,88 @@
+BOM:BROWSER OBJECT MODEL
+-IT IS A COLLECTION OF objects that reprezent browser environments
+-it provides access to the browser window and doc object
+use:
+1. redirect to another pages
+2. open new window tab
+3. browser alerts
+4. 
+
+DOM
+---document object MODEL
+-it is a collection of objects that represnet the html document and its contents as treee of objects 
+-it provides access to the html elemnts and their properties
+-it manipulates html doc and css
+
+use cases:
+1.create dynamic pages
+2. manipulate htmll document
+3. interactiive webpages creation
+4. providing css
+5. ''    js
+6. create or remove  elemnts `
+------------------------------------------
+            dom             BOM
+            interact        interact with browser
+            with HTML
+             document
+main object   doc               window             
+
+
+DOM MANIPULATION
+======================
+1. ELEMNT ACCESING 
+2. ELEMNT creation
+3. ELEMNT REMOVAL
+4. ELEMNT MODIFICATION/MANIPULATION
+5. ATTRIBUTR MANIPULATION
+6. CSS MANIPULATION
+7. EVENT MANIPULATION/HANDLING
+
+1. elemnt accesing
+-getElementById
+-getElemntByClassName()
+-getElemntByTagName()
+-querySelector()
+-querySelectorByAll()
+----------------------------------------
+
+2. element creation
+-creating elements by dom methods 
+1. createElement()
+-create elemnt by tag getElemntByTagName
+-returns sing,e elemnt-it creates content in me mory
+-to appear in doc we need to use
+1. appendChild()
+2. insertBefore()
+3. replaceChild()
+4. prepend()
+5. removeChild()
+6. cloneNode()
+
+appendchild()
+-parenttag
+-sibling tag no
+
+insertBefore()
+--parent tag 
+-sibline tag
+
+prepend()
+
+-parent tag
+-sibling tag
+---------------------
+attribute MANIPULATION
+-modify attribute by DOM1. setAttribute
+removeAttribute
+getAtrribute
+HasAtrribute
+-----------------------
+CSS MANIPULATION-modifying css by DOM methods
+1. style --adding css
+2. getComputedStyle()-accessing css
+3. classList.add()--add class
+4. classList.toggle()--toggling class
+6. classList.contains()--check class presence
+
+-----------------------

@@ -15,8 +15,12 @@ this.property_name=variableName;
 function barking(){
 
 }
-}
-----------------------------------------
+}------------------------------
+creation of objects:
+1.constructor function
+2. class 
+3. object literal
+---------------------- -----------------
 note: in js every object has prototype
 PROTOTYPE
 -it is a property of an objects
@@ -24,3 +28,47 @@ PROTOTYPE
 -it is used to add new properties and methods to an object
 =-this created a prototype chainn betwen objects
 :allows object to share properties and
+
+class:
+-itt is  a template for creating objects
+-it is a blueprint for creating objects
+creation:
+1. class declaration
+2. class expression
+----------------------
+1. class declarartion:
+class className{
+    constructor(var1,var2.....){
+this.var1=var1;
+this.var2=var;
+    }
+    function f1(){
+
+    }
+}
+2. class expression
+let classname=new class{
+    constructor(var1, var2,var3){
+        this.var1=var
+        this.var2=var
+    }
+    function f1(){
+
+    }
+}
+
+======================================
+object literal:
+let obj={
+    'propertyname'='value'
+        'propertyname'='value'
+
+
+}
+object.create():
+-----------
+const obj1={
+    'propertyname'='value'
+}
+const obj2=object.create(obj1);
+====================

@@ -1,0 +1,95 @@
+Array:
+-is a collection of items
+-is a list of items/values
+-used to store multiple values in a single variable
+-is a mutable(modify after creation) data type
+-is a dynamic data type-it can hold values/items like number,srting,objects etc
+-it is denoted by[]
+-is a ordered collection items 
+---------
+array creation:
+1. array literal
+->let arr1=[1,2,3]
+2. array constructor:
+let arr2=new Array(10,20)
+3.array .from()
+let Stringdataa='hello'
+let charArray=Array.from(StringData)
+-it is used to convert string.sets to arrayMethods
+array .of()
+let numArr=Array.of(10,20,30)
+-used to create new array from a set of values
+----------------------------
+accesing data from array:
+1. array indexing
+2. array arrayMethods
+--------------------------------
+//adding values to array
+let arr8=['this','is','array','session']
+arrayMethods: 
+1. push()-add at last
+2. unshift() add elemt at first
+--------------
+arraymethods:
+1. pop()-remove elemnt from top
+2. shift()-remove from beginneing
+-----------
+array methods:
+1. at():
+2. map()
+-it is used to create a new array by performing a specific operation on each elemnt of an existing array
+-it returns a new array-it won change original array-it takes a function as an argument
+-it is used to data transferring-eg of high order function and introduce in ES6
+SYNTAX;
+map(element,index,array){
+    return elemnt;
+}
+elemnt:value of arr1
+index:index of arr(optional)
+array:original array(optional)
+----
+atfilter()
+-it is used to craeate new array by keeping the elemnts of existing array for which a specific condition is true
+-takes function as an argument
+-it wont change orginial array-it takes function as an argument
+-eg of high order
+syntax:
+filter(elemnt,index,array){
+    return element}
+
+
+at()
+map()
+filter()
+-----------------------
+4. reduce()
+-used to create a new array by performing a special operation on each elemnt of an existing array
+-it returns a single value
+-it wont change the original array-it takes a function as an argument-it is eg og high order
+=======
+syntax:
+array.reduce(accumulator,currentvalue,index,array){
+return accumulator;
+
+}, intialvalue
+
+accumulator: it is used to store result of previoius iteration
+currentvalue:it is used to store  curr elemnt of array
+--------------------------------
+includes():
+-USED TO CHECK if an elemnt is present in an array
+-it returns a boolean value
+---------------------
+syntax:
+array.includes(elemnt,fromIndex)
+
+elemnt:value of array
+fromIndex:index of an array,default value is 0
+--------------------
+find()
+-used to return first colum of an array that specifies specific condition
+-returns a single value- introduced in ES6
+--------------------------
+
+every()
+splice()

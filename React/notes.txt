@@ -1,0 +1,41 @@
+React:
+-----------------------
+Day 27:
+React 
+- JS library for building user interfaces
+-released by FB in 2013
+-is declarative,efficient and flexible js for building UI
+-used to develop single-page applications
+- is a component based front-end library
+-- react makes it painless to create interactive UIS
+-react is used to develop web applications/mobile applications/desktop applications
+
+who uses react:
+-FB 
+-NETFLIX
+-AIRBNB
+-INSTA
+-snapchat
+-youtube
+-spotifys
+-tinder
+-----------------------------
+
+why use react:
+-high performance with virtual DOM
+--SINGLE PAGE applications
+-easy to learn and implementation
+-free and open source
+-huge ecosystem of libraries(react router,reduc etc)
+-it is a js library
+-easy to integrate with other libraries
+-fast and efficient-
+-------------------------------
+how to create react project 
+-step 1
+-- create a folder here React
+2. open terminal in that folder (cmd)
+3. npx create-react-app project-name
+npx: node package execution is a command line tool of node.js that allows you to execute npm packages directly from command line
+
+
