@@ -37,5 +37,83 @@ how to create react project
 2. open terminal in that folder (cmd)
 3. npx create-react-app project-name
 npx: node package execution is a command line tool of node.js that allows you to execute npm packages directly from command line
+4. cd projecct_name
+//to change directory
+5. npm start (to run project)
+step 2 : second way 
 
+1. open terminal ?(cmd)
+3.npm create vite@latest
+project_name: 
+choose library
+react
+choose variant
+javascript
 
+5. cd project_name
+6. npm install(installing dependencies/node packages)
+(npm-node package manager)
+5. npm run dev
+//1:14 minutes 
+------------------
+JSX-javascript XML(extension of js)
+(xml-extensible markup language)
+-we can write html in js
+ =================
+ components:
+ ex:header component,footer,sidebar component etc
+ 1. create jsx file in source(src)
+ 2. declare component(function)
+ 3. return jsx code(wrap jsx code with fragment tag <> ...</>)
+ 4.  return jsx code(encapsulate/wrap jsx code)
+
+ -wrap can be done
+ = using div tag
+ = using fragment tag <></>
+ = using template string ``
+ = using react.fragment <React.Fragment></React.Fragment>
+ =EXPORT THE COMPONENT 
+ =USE COMPONENT IN REMAINING JSX FILE 
+ 4. import component in MAIN.jsx file
+ 
+
+====================================
+component:(ui component)
+ex:header component,footer component,sidebar component etc
+
+-- it is a function/class that returns jsx code
+-it is  a reusable component
+- it is  afile that contains jsx code(html in js file)
+-we can create component in two ways
+1. function componet 
+2. class component
+
+1. function componet 
+synatx;
+function component_name(){
+    return(
+        <> //jsx code </>
+        )
+}
+
+2. class component
+
+ import React from "react"
+class component_name extends React.component{
+    render(){
+        return(
+            <>
+            //jsx code</>
+        )
+    }
+}
+-------------------------------
+        function                    classs
+            js function                 Es6 class syntax
+render()    NA                          required
+state        useState               this.state                          
+props           props                    this.props
+this key        NA                       required
+readabilityy    clean                   more boilerplate
+preferred       modern standard         old (deprecated)
+============================================
