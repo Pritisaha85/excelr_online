@@ -117,3 +117,63 @@ this key        NA                       required
 readabilityy    clean                   more boilerplate
 preferred       modern standard         old (deprecated)
 ============================================
+
+//1:37
+
+STATE :
+
+-state is an object that contains data that the component needs
+-it is used to stor uodate/manage data that the component needs to render
+-we can modify the state in the component with help os setState() method or this.setState() method
+
+ex:
+let [state/data,setState]=useState(intialState)
+eg:
+1. let[count,setCount]=useState(0)
+2. let[name,setName]=useState('') 
+3.let [user,setUser]=userState({})
+4. let[fruits,setFruits]=useState([])
+5. let[isTrue.setIsTrue]=useState(true)
+
+
+
+setState() method:
+-it is used to update state of the component
+--it is a function used to update
+
+useState() hook:
+-it is a hook that returns an array of two elements
+--the first elemnts is the state variable
+--the second elemnt is the function that updates the state variable
+--it is used to manage the state of the component
+
+hooks:
+-it is a function that returns jsx code
+ex:useState(), useEffect(),useRef(), useContext()
+=================================
+
+props--is an object that contains data that the component needs
+-it is used to pass data from parent component to child components
+-we can access the props in the component with help of props
+-------------------------------
+
+                state               props
+define          used 2 update        use 2 pass/transfer(psrent 2 child)
+                    mutable             immutable
+managed             by itself             by parent 
+access                  by itself           by child 
+                        this.state/useState()    props/{name,age}
+    //2:33 minute
+    ===================================
+    day 29:
+    props drilling
+    -it is a technique that is used to pass data from parent component to child component.
+    eg:
+    grand parent-->parent--->grnad child
+
+    -it makes difficult to code
+    -it causes code maintainability
+    -to avoid props drilling we can use context api or redux 
+    ====================================
+
+// 56:45  minutes done
